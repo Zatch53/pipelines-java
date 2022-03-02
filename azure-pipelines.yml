@@ -8,9 +8,9 @@ pool:
 steps:
 - bash: echo "Hello world"
 
-container:
-trigger:
-- master
+#container:
+#trigger:
+#- master
 
 #pool:
 #  vmImage: ubuntu-latest
